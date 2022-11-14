@@ -12,7 +12,7 @@
       <div>
         <h5>Shoes</h5>
         <p class="truncate hover:whitespace-normal">Sneakers</p>
-        <p>Dummy Description</p>
+        <p *ngIf="fullWidthMode">Dummy Description</p>
       </div>
       <div class="flex justify-between">
         <span class="text-red-400">{{ "150" | currency }}</span>
